@@ -10,9 +10,6 @@ public class SortExample {
         List<Integer> mylist = Arrays.asList(2,22,11,1,4,3,7,21);
         Collections.sort(mylist);
         System.out.println(mylist);
-
-
-        //hola
     }
 }
 
