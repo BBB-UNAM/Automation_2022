@@ -11,8 +11,6 @@ public class SortExample {
         Collections.sort(mylist);
         System.out.println(mylist);
 
-
-        //Hola
     }
 }
 
