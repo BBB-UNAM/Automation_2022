@@ -20,7 +20,7 @@ public class ExplicitWaitExample {
         driver.get("http://demowebshop.tricentis.com/");
         //Thread.sleep(500);
 
-        driver.findElement(By.id("small-searchterms")).sendKeys("Youtube luisito comunica");
+        driver.findElement(By.id("small-searchterms")).isDisplayed();
         Thread.sleep(1000);
         driver.quit();
         driver.close();
