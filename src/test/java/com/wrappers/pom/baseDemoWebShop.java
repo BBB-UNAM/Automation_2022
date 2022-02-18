@@ -65,7 +65,7 @@ public class baseDemoWebShop {
         try {
             return findelement.isDisplayed();
         } catch (org.openqa.selenium.NoSuchElementException e){
-            System.out.println("Button ");
+            System.out.println("The element isn't in the web explorer");
             return false;
         }
     }
