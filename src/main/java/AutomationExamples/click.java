@@ -28,7 +28,7 @@ public class click {
 
         click xpath = new click();
 
-        driver.findElement(By.xpath(xpath.xpathShoppingCart)).getText();
+        driver.findElement(By.xpath(xpath.xpathShoppingCart)).click();
         driver.findElement(By.xpath(xpath.xpathWishList)).click();
         driver.findElement(By.xpath(xpath.xpathRegister)).click();
         driver.findElement(By.xpath(xpath.xpathLogin)).click();

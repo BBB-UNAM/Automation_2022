@@ -2,6 +2,7 @@ package com.pageObjects.pom;
 
 import com.wrappers.pom.baseDemoWebShop;
 import org.openqa.selenium.WebDriver;
+import com.WebElementsIdentifers.*;
 
 public class pageObjectsDemoWenShopLoginSession extends baseDemoWebShop {
     WebDriver driver;
@@ -12,7 +13,9 @@ public class pageObjectsDemoWenShopLoginSession extends baseDemoWebShop {
     }
 
     // click on login link
-    public void clickOnLogInLink(){}
+    public void clickOnLogInLink(){
+        click(findXpath(DemoWebShopMainPage.xpathLogin));
+    }
 
     public void writeEmailandPass(){}
 
