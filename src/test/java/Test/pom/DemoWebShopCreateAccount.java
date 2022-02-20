@@ -9,7 +9,7 @@ import Factory.WebDriverFactory;
 public class DemoWebShopCreateAccount {
     WebDriver driver;
     pageObjectsDemoWenShopRegister execution1;
-    pageObjectsDemoWenShopLoginSession execution2;
+
 
     @BeforeTest
     public void beforeTest(){
