@@ -1,7 +1,5 @@
 package com.WebElementsIdentifers;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
 public class DemoWebShopMainPage {
     //Menu bars " Register, Log in, Shopping, cart(0), Wishlist(0)"
     public static String xpathRegister = "//a[@href='/register']";
