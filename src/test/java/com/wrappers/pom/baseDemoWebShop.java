@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.time.Duration;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class baseDemoWebShop {
 
@@ -86,4 +87,19 @@ public class baseDemoWebShop {
         this.driver.manage().window().maximize();
     }
     //*********************************************************************************************************
+
+    //generar una cadena aleatoria de caracteres***************************************************************
+    public String cadenaAleatoria(int Tamaño){
+
+        String finalarray = "";
+        String catalogo = "bcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+
+        for(int i = 0; i < Tamaño; i++){
+            int b  = ThreadLocalRandom.current().nextInt(0,62);
+            char letra = catalogo.charAt(b);
+            finalarray += letra;
+        }
+
+        return finalarray;
+    }
 }

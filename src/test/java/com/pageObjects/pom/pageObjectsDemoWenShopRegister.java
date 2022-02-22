@@ -39,7 +39,7 @@ public class pageObjectsDemoWenShopRegister extends baseDemoWebShop{
         sendtext(findID(DemoWebShopRegisterSection.idLastName),"Gonzalez");
 
         //Write the emsil
-        sendtext(findXpath(DemoWebShopRegisterSection.xpathEmail),"jfgbgfb@mail.com");
+        sendtext(findXpath(DemoWebShopRegisterSection.xpathEmail),cadenaAleatoria(5) +"@mail.com");
 
         //Write the password
         sendtext(findID(DemoWebShopRegisterSection.idPassword),"Sgae3081");
