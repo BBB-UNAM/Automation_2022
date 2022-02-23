@@ -1,7 +1,6 @@
 package TestNG.pom;
 
 import com.pageObjects.pom.*;
-import com.wrappers.pom.baseDemoWebShop;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import Factory.WebDriverFactory;
@@ -33,8 +32,8 @@ public class DemoWebShopCreateAccount {
         execution.miximizeWindow();
     }
 
-    @Test
-    public void test() throws InterruptedException {
+    @Test(priority = 1)
+    public void createUser() throws InterruptedException {
         pageObjectsDemoWenShopRegister execution = new pageObjectsDemoWenShopRegister(this.driver);
 
         //damos click on regisyter link
@@ -55,6 +54,30 @@ public class DemoWebShopCreateAccount {
 
         //click on contnue button
         execution.clickOnContineButton();
+        Thread.sleep(500);
+    }
+
+    @Test(priority = 2)
+    public void loginUser() throws InterruptedException {
+        //Declaramos el objeto de la clase que contiene los pasos
+        pageObjectsDemoWenShopLoginSession execution = new pageObjectsDemoWenShopLoginSession(this.driver);
+
+        execution.clickOnLogInLink();
+        Thread.sleep(500);
+
+        execution.writeEmailandPass();
+        Thread.sleep(500);
+
+        execution.clickonLogInButton();
+        Thread.sleep(500);
+
+        execution.validateAppearWebElements();
+        Thread.sleep(500);
+
+        execution.logoutSession();
+        Thread.sleep(500);
+
+        execution.valideLogoutElements();
         Thread.sleep(500);
     }
 
