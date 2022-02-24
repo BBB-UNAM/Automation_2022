@@ -10,15 +10,18 @@ public class DemoWebShopCreateAccount {
 
     @BeforeSuite
     public void configureWebDriver(){
+
+    }
+
+    @BeforeMethod
+    public void beforeMethod(){
+
         //instanciamos el objeto que contruye el factory.
         WebDriverFactory factory = new WebDriverFactory();
 
         //llamamos al metodo que cotruye nuestro driver
         this.driver = factory.configureEnvironment("chrome");
-    }
 
-    @BeforeMethod
-    public void beforeMethod(){
         //metodo
         pageObjectsDemoWenShopInitialSteps execution = new pageObjectsDemoWenShopInitialSteps(this.driver);
 
@@ -82,12 +85,18 @@ public class DemoWebShopCreateAccount {
     }
 
     @AfterMethod
-    public void afterTest(){
+    public void afterMethod(){
         //System.out.println("adios");
         //crar onjeto base con nuestro driver
         pageObjectsDemoWenShopFinalSteps execution = new pageObjectsDemoWenShopFinalSteps(this.driver);
 
         //cerramos el hilo de ejecucion y el explorador.
         execution.closeCase();
+        execution.quitCase();
+    }
+
+    @AfterSuite
+    public void closeConfigureWebDriver(){
+
     }
 }

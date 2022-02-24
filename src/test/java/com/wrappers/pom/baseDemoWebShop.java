@@ -79,6 +79,11 @@ public class baseDemoWebShop {
     //cerrar explorador e hilo de ejecucion
     public void closeCase(){
         this.driver.close();
+    }
+
+    //cerrar el hilo de ejecucion del programa
+
+    public void quitCase(){
         this.driver.quit();
     }
 
