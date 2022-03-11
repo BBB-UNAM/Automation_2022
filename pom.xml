@@ -73,6 +73,7 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <!-- <encoding>UTF-8</encoding>-->
+                    <skipTests>false</skipTests>
                  </configuration>
              </plugin>
          </plugins>
