@@ -74,6 +74,10 @@
                     </suiteXmlFiles>
                     <!-- <encoding>UTF-8</encoding>-->
                     <skipTests>false</skipTests>
+
+                    <properties>
+
+                    </properties>
                  </configuration>
              </plugin>
          </plugins>
