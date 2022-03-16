@@ -84,6 +84,35 @@ public class DemoWebShopCreateAccount {
         Thread.sleep(500);
     }
 
+    @Test(priority = 3)
+    public void testingProdBar() throws InterruptedException {
+
+        //instanciamos el objeto de la cl
+        pageObjectsDemoWenShopClickProdBar execution = new pageObjectsDemoWenShopClickProdBar(this.driver);
+
+        execution.clickOnBooks();
+        Thread.sleep(500);
+
+        execution.clickOnComputers();
+        Thread.sleep(500);
+
+        execution.clickOnElectronics();
+        Thread.sleep(500);
+
+        execution.clickOnApparelAndShoes();
+        Thread.sleep(500);
+
+        execution.clickOnDigitalDounloads();
+        Thread.sleep(500);
+
+        execution.clockOnYewerly();
+        Thread.sleep(500);
+
+        execution.clickOnGiftCards();
+        Thread.sleep(500);
+
+    }
+
     @AfterMethod
     public void afterMethod(){
         //System.out.println("adios");

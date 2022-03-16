@@ -27,4 +27,16 @@ public class pageObjectsDemoWenShopClickProdBar extends baseDemoWebShop {
         click(findXpath(DemoWebShopProductBar.xpathApparealShoes));
     }
 
+    public void clickOnDigitalDounloads(){
+        click(findXpath(DemoWebShopProductBar.xpathDigitalDownload));
+    }
+
+    public void clockOnYewerly(){
+        click(findXpath(DemoWebShopProductBar.xpathJewelry));
+    }
+
+    public void clickOnGiftCards(){
+        click(findXpath(DemoWebShopProductBar.xpathGiftCards));
+    }
+
 }
