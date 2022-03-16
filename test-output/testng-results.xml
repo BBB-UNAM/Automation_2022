@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="12409" started-at="2022-03-15T19:40:33 CST" finished-at="2022-03-15T19:40:46 CST">
+    <groups>
+    </groups>
+    <test name="Automation_2022" duration-ms="12409" started-at="2022-03-15T19:40:33 CST" finished-at="2022-03-15T19:40:46 CST">
+      <class name="TestNG.pom.DemoWebShopCreateAccount">
+        <test-method status="PASS" signature="configureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopCreateAccount@7a1ebcd8]" name="configureWebDriver" is-config="true" duration-ms="8" started-at="2022-03-15T19:40:33 CST" finished-at="2022-03-15T19:40:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureWebDriver -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopCreateAccount@7a1ebcd8]" name="beforeMethod" is-config="true" duration-ms="7186" started-at="2022-03-15T19:40:33 CST" finished-at="2022-03-15T19:40:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createUser()[pri:1, instance:TestNG.pom.DemoWebShopCreateAccount@7a1ebcd8]" name="createUser" duration-ms="4962" started-at="2022-03-15T19:40:41 CST" finished-at="2022-03-15T19:40:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopCreateAccount@7a1ebcd8]" name="afterMethod" is-config="true" duration-ms="235" started-at="2022-03-15T19:40:46 CST" finished-at="2022-03-15T19:40:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeConfigureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopCreateAccount@7a1ebcd8]" name="closeConfigureWebDriver" is-config="true" duration-ms="0" started-at="2022-03-15T19:40:46 CST" finished-at="2022-03-15T19:40:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConfigureWebDriver -->
+      </class> <!-- TestNG.pom.DemoWebShopCreateAccount -->
+    </test> <!-- Automation_2022 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
