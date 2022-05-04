@@ -25,6 +25,6 @@ public class pageObjectsDemoWenShopBookVerify extends baseDemoWebShop {
     }
 
     public void selectdisplay(){
-        dropDownSelect(,"12");
+        dropDownSelect(findID(DemoWebShopBookElements.idDisplay),"12");
     }
 }
