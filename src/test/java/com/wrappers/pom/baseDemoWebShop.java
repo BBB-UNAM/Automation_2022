@@ -3,6 +3,7 @@ package com.wrappers.pom;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
 import java.util.concurrent.ThreadLocalRandom;
@@ -106,5 +107,15 @@ public class baseDemoWebShop {
         }
 
         return finalarray;
+    }
+
+    public void dropDownSelect(WebElement dropDown, String optionText){
+        Select list = new Select(dropDown);
+        list.selectByVisibleText(optionText);
+    }
+
+    public void dropDownSelect(WebElement dropDown, int numOption){
+        Select list = new Select(dropDown);
+        list.selectByIndex(numOption);
     }
 }
