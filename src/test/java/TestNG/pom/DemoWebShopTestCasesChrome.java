@@ -13,6 +13,7 @@ public class DemoWebShopTestCasesChrome {
 
     }
 
+
     @BeforeMethod
     public void beforeMethod(){
 
