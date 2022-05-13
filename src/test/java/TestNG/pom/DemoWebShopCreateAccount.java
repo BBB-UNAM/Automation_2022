@@ -113,6 +113,28 @@ public class DemoWebShopCreateAccount {
 
     }
 
+    @Test(priority = 4)
+    public void testBooksSectionandDropDowns() throws InterruptedException{
+        //instance of object using a class with the test steps
+        pageObjectsDemoWenShopBookVerify execution = new pageObjectsDemoWenShopBookVerify(this.driver);
+
+        execution.clickOnBooks();
+        Thread.sleep(500);
+
+        execution.selectShortByPriceHighToLow();
+        Thread.sleep(500);
+
+        execution.selectViewAsList();
+        Thread.sleep(500);
+
+        execution.selectdisplay();
+        Thread.sleep(500);
+
+        execution.ValidateAddToCar();
+
+    }
+
+
     @AfterMethod
     public void afterMethod(){
         //System.out.println("adios");

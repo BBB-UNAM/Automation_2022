@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class baseDemoWebShop {
@@ -32,6 +33,27 @@ public class baseDemoWebShop {
 
     public WebElement findName(String name){
         return  driver.findElement(By.name(name));
+    }
+
+    //using to find multiple elements with just one xpath.
+    public List<WebElement> findMultipleElements (String option,String idenfier){
+        List<WebElement> myLyst;
+
+        if (option == "xpath"){
+            myLyst = driver.findElements(By.xpath(idenfier));
+        }else if (option == "id"){
+            myLyst = driver.findElements(By.id(idenfier));
+        }else if (option == "ccsSelector"){
+            myLyst = driver.findElements(By.cssSelector(idenfier));
+        }else {
+            myLyst = null;
+        }
+        return myLyst;
+    }
+
+    //methos to get one webelement of a list.
+    public WebElement returnWebElem(List<WebElement> myList,int index){
+        return myList.get(index);
     }
     //*********************************************************************************************************
 

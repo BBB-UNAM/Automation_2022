@@ -1,9 +1,11 @@
 package com.pageObjects.pom;
-
+import java.util.List;
 import com.WebElementsIdentifers.DemoWebShopBookElements;
 import com.WebElementsIdentifers.DemoWebShopProductBar;
 import com.wrappers.pom.baseDemoWebShop;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class pageObjectsDemoWenShopBookVerify extends baseDemoWebShop {
 
@@ -26,5 +28,17 @@ public class pageObjectsDemoWenShopBookVerify extends baseDemoWebShop {
 
     public void selectdisplay(){
         dropDownSelect(findID(DemoWebShopBookElements.idDisplay),"12");
+    }
+
+    public void ValidateAddToCar() throws InterruptedException{
+        List<WebElement> listOfElements = findMultipleElements("xpath",DemoWebShopBookElements.xpathsAddToCar);
+
+        //forEach cicle to click on each ad to car button and verify that it is correctly clicked
+        for(WebElement myWebElements : listOfElements){
+            myWebElements.click();
+            boolean flag = displayed(myWebElements);
+            Assert.assertEquals(true, flag, "Notification was not displayed");
+            Thread.sleep(5000);
+        }
     }
 }

@@ -5,5 +5,5 @@ public class DemoWebShopBookElements {
     public static String idDisplay = "products-pagesize";
     public static String idViewAs = "products-viewmode";
     public static String xpathsAddToCar = "//*[@value='Add to cart']";
-    public static String spathAddNotif = "//p[text()='The product has been added to your ']";
+    public static String spathAddNotif = "//div[@id='bar-notification' and @style='display: block;']";
 }
