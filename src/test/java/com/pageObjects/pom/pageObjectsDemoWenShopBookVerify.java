@@ -35,7 +35,7 @@ public class pageObjectsDemoWenShopBookVerify extends baseDemoWebShop {
 
         //forEach cicle to click on each ad to car button and verify that it is correctly clicked
         for(WebElement myWebElements : listOfElements){
-            myWebElements.click();
+            click(myWebElements);
             boolean flag = displayed(myWebElements);
             Assert.assertEquals(true, flag, "Notification was not displayed");
             Thread.sleep(5000);

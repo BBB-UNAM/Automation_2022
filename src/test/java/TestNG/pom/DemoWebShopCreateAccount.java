@@ -131,7 +131,6 @@ public class DemoWebShopCreateAccount {
         Thread.sleep(500);
 
         execution.ValidateAddToCar();
-
     }
 
 
