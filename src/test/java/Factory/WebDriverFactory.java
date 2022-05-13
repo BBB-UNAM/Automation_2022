@@ -17,7 +17,7 @@ public class WebDriverFactory {
             return new ChromeDriver();
         } else if(browser.equals("edge")){
             File rootPath = new File("src/main/resources/ExplorerDrivers/msedgedriver");
-            System.setProperty("webdriver.msedgedriver.driver", rootPath.getPath());
+            System.setProperty("webdriver.edge.driver", rootPath.getPath());
             return new EdgeDriver();
         } else {
             return null;

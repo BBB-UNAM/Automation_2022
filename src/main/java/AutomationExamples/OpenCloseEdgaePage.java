@@ -14,7 +14,7 @@ public class OpenCloseEdgaePage {
         System.setProperty("webdriver.edge.driver", rootPath.getPath());
         WebDriver driver = new EdgeDriver();
 
-        driver.get("Https://www.google.com");
+        driver.get("http://demowebshop.tricentis.com/");
 
         Thread.sleep(1500);
 
