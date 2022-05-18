@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-    <parameter name="browser" value="edge"></parameter>
-    <test thread-count="2" name="Test">
+<suite name="Suite1" parallel="tests" thread-count="2">
+
+    <test thread-count="2" name="TestChrome">
         <classes>
             <class name="TestNG.pom.DemoWebShopTestCasesChrome"/>
         </classes>
     </test> <!-- Test -->
+
+    <test thread-count="2" name="TestEdge">
+        <classes>
+            <class name="TestNG.pom.DemoWebShopTestCasesEdge"/>
+        </classes>
+    </test> <!-- Test -->
+
 </suite> <!-- Suite -->
