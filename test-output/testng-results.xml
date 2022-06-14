@@ -1,57 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="33310" started-at="2022-03-15T19:51:03 CST" finished-at="2022-03-15T19:51:36 CST">
+  <suite name="Suite1" duration-ms="64210" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:13:04 CDT">
     <groups>
     </groups>
-    <test name="Automation_2022" duration-ms="33310" started-at="2022-03-15T19:51:03 CST" finished-at="2022-03-15T19:51:36 CST">
+    <test name="TestChrome" duration-ms="59793" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:12:59 CDT">
       <class name="TestNG.pom.DemoWebShopTestCasesChrome">
-        <test-method status="PASS" signature="configureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="configureWebDriver" is-config="true" duration-ms="9" started-at="2022-03-15T19:51:03 CST" finished-at="2022-03-15T19:51:03 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureWebDriver -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="beforeMethod" is-config="true" duration-ms="5150" started-at="2022-03-15T19:51:03 CST" finished-at="2022-03-15T19:51:08 CST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="6521" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:12:06 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="createUser()[pri:1, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="createUser" duration-ms="6023" started-at="2022-03-15T19:51:08 CST" finished-at="2022-03-15T19:51:14 CST">
+        <test-method status="PASS" signature="createUser()[pri:1, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="createUser" duration-ms="5148" started-at="2022-06-14T14:12:06 CDT" finished-at="2022-06-14T14:12:11 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="afterMethod" is-config="true" duration-ms="215" started-at="2022-03-15T19:51:14 CST" finished-at="2022-03-15T19:51:14 CST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="afterMethod" is-config="true" duration-ms="160" started-at="2022-06-14T14:12:11 CDT" finished-at="2022-06-14T14:12:11 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="beforeMethod" is-config="true" duration-ms="3886" started-at="2022-03-15T19:51:14 CST" finished-at="2022-03-15T19:51:18 CST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="5068" started-at="2022-06-14T14:12:11 CDT" finished-at="2022-06-14T14:12:17 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginUser()[pri:2, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="loginUser" duration-ms="5248" started-at="2022-03-15T19:51:18 CST" finished-at="2022-03-15T19:51:23 CST">
+        <test-method status="PASS" signature="loginUser()[pri:2, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="loginUser" duration-ms="5314" started-at="2022-06-14T14:12:17 CDT" finished-at="2022-06-14T14:12:22 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="afterMethod" is-config="true" duration-ms="223" started-at="2022-03-15T19:51:23 CST" finished-at="2022-03-15T19:51:24 CST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="afterMethod" is-config="true" duration-ms="198" started-at="2022-06-14T14:12:22 CDT" finished-at="2022-06-14T14:12:22 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="beforeMethod" is-config="true" duration-ms="3783" started-at="2022-03-15T19:51:24 CST" finished-at="2022-03-15T19:51:27 CST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="5340" started-at="2022-06-14T14:12:22 CDT" finished-at="2022-06-14T14:12:27 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testingProdBar()[pri:3, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="testingProdBar" duration-ms="8502" started-at="2022-03-15T19:51:27 CST" finished-at="2022-03-15T19:51:36 CST">
+        <test-method status="PASS" signature="testingProdBar()[pri:3, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="testingProdBar" duration-ms="7923" started-at="2022-06-14T14:12:27 CDT" finished-at="2022-06-14T14:12:35 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testingProdBar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="afterMethod" is-config="true" duration-ms="244" started-at="2022-03-15T19:51:36 CST" finished-at="2022-03-15T19:51:36 CST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="afterMethod" is-config="true" duration-ms="149" started-at="2022-06-14T14:12:35 CDT" finished-at="2022-06-14T14:12:35 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="closeConfigureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@1877ab81]" name="closeConfigureWebDriver" is-config="true" duration-ms="0" started-at="2022-03-15T19:51:36 CST" finished-at="2022-03-15T19:51:36 CST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="3799" started-at="2022-06-14T14:12:35 CDT" finished-at="2022-06-14T14:12:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testBooksSectionandDropDowns()[pri:4, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="testBooksSectionandDropDowns" duration-ms="20007" started-at="2022-06-14T14:12:39 CDT" finished-at="2022-06-14T14:12:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooksSectionandDropDowns -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="afterMethod" is-config="true" duration-ms="138" started-at="2022-06-14T14:12:59 CDT" finished-at="2022-06-14T14:12:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG.pom.DemoWebShopTestCasesChrome -->
+    </test> <!-- TestChrome -->
+    <test name="TestEdge" duration-ms="64210" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:13:04 CDT">
+      <class name="TestNG.pom.DemoWebShopTestCasesChrome">
+        <test-method status="PASS" signature="configureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="configureWebDriver" is-config="true" duration-ms="7" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:12:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureWebDriver -->
+        <test-method status="PASS" signature="closeConfigureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesChrome@307f6b8c]" name="closeConfigureWebDriver" is-config="true" duration-ms="1" started-at="2022-06-14T14:13:04 CDT" finished-at="2022-06-14T14:13:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConfigureWebDriver -->
       </class> <!-- TestNG.pom.DemoWebShopTestCasesChrome -->
-    </test> <!-- Automation_2022 -->
-  </suite> <!-- Default Suite -->
+      <class name="TestNG.pom.DemoWebShopTestCasesEdge">
+        <test-method status="PASS" signature="configureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="configureWebDriver" is-config="true" duration-ms="0" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:12:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureWebDriver -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="beforeMethod" is-config="true" duration-ms="5939" started-at="2022-06-14T14:12:00 CDT" finished-at="2022-06-14T14:12:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createUser()[pri:1, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="createUser" duration-ms="5034" started-at="2022-06-14T14:12:06 CDT" finished-at="2022-06-14T14:12:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="afterMethod" is-config="true" duration-ms="271" started-at="2022-06-14T14:12:11 CDT" finished-at="2022-06-14T14:12:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="beforeMethod" is-config="true" duration-ms="5849" started-at="2022-06-14T14:12:11 CDT" finished-at="2022-06-14T14:12:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginUser()[pri:2, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="loginUser" duration-ms="5308" started-at="2022-06-14T14:12:17 CDT" finished-at="2022-06-14T14:12:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="afterMethod" is-config="true" duration-ms="328" started-at="2022-06-14T14:12:22 CDT" finished-at="2022-06-14T14:12:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="beforeMethod" is-config="true" duration-ms="6647" started-at="2022-06-14T14:12:22 CDT" finished-at="2022-06-14T14:12:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testingProdBar()[pri:3, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="testingProdBar" duration-ms="8243" started-at="2022-06-14T14:12:29 CDT" finished-at="2022-06-14T14:12:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingProdBar -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="afterMethod" is-config="true" duration-ms="207" started-at="2022-06-14T14:12:37 CDT" finished-at="2022-06-14T14:12:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="beforeMethod" is-config="true" duration-ms="6090" started-at="2022-06-14T14:12:37 CDT" finished-at="2022-06-14T14:12:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testBooksSectionandDropDowns()[pri:4, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="testBooksSectionandDropDowns" duration-ms="19887" started-at="2022-06-14T14:12:44 CDT" finished-at="2022-06-14T14:13:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooksSectionandDropDowns -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="afterMethod" is-config="true" duration-ms="379" started-at="2022-06-14T14:13:03 CDT" finished-at="2022-06-14T14:13:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeConfigureWebDriver()[pri:0, instance:TestNG.pom.DemoWebShopTestCasesEdge@44c8afef]" name="closeConfigureWebDriver" is-config="true" duration-ms="0" started-at="2022-06-14T14:13:04 CDT" finished-at="2022-06-14T14:13:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConfigureWebDriver -->
+      </class> <!-- TestNG.pom.DemoWebShopTestCasesEdge -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Suite1 -->
 </testng-results>
