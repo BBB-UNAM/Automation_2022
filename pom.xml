@@ -79,11 +79,14 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <!-- <encoding>UTF-8</encoding>-->
+
                     <skipTests>false</skipTests>
 
                     <properties>
-
+                        <property>
+                            <name>reporter</name>
+                            <value>org.testng.reporters</value>
+                        </property>
                     </properties>
                  </configuration>
              </plugin>

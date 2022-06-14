@@ -2,6 +2,7 @@ package TestNG.pom;
 
 import com.pageObjects.pom.*;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 import org.testng.annotations.*;
 import Factory.WebDriverFactory;
 
@@ -141,6 +142,7 @@ public class DemoWebShopTestCasesEdge {
         pageObjectsDemoWenShopFinalSteps execution = new pageObjectsDemoWenShopFinalSteps(this.driver);
 
         //cerramos el hilo de ejecucion y el explorador.
+        Reporter.log("Test");
         execution.closeCase();
         execution.quitCase();
     }
