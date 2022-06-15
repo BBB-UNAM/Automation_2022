@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.io.File;
 
 public class WebDriverFactory {
@@ -23,6 +25,9 @@ public class WebDriverFactory {
             System.setProperty("webdriver.edge.driver", rootPath.getPath());*/
             WebDriverManager.edgedriver().setup();
             return new EdgeDriver();
+        } else if(browser.equals("Firefox")){
+            WebDriverManager.firefoxdriver().setup();
+            return new FirefoxDriver();
         } else {
             return null;
         }

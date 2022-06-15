@@ -11,7 +11,6 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- to run in windows and macOS using coding UTF8 -->
     </properties>
 
 
@@ -80,11 +79,15 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <!-- <encoding>UTF-8</encoding>-->
+
                     <skipTests>false</skipTests>
 
-                    <properties></properties>
-
+                    <properties>
+                        <property>
+                            <name>reporter</name>
+                            <value>org.testng.reporters</value>
+                        </property>
+                    </properties>
                  </configuration>
              </plugin>
          </plugins>
