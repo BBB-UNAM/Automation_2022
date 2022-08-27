@@ -85,8 +85,8 @@
 
                     <properties>
                         <property>
-                            <name>reporter</name>
-                            <value>org.testng.reporters</value>
+                            <name>usedefaultlisteners</name>
+                            <value>true</value> <!-- disabling default listeners is optional -->
                         </property>
                     </properties>
                  </configuration>
