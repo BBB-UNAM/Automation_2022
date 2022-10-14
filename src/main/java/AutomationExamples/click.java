@@ -32,6 +32,7 @@ public class click {
         driver.findElement(By.xpath(xpath.xpathWishList)).click();
         driver.findElement(By.xpath(xpath.xpathRegister)).click();
         driver.findElement(By.xpath(xpath.xpathLogin)).click();
+        
 
 
         Thread.sleep(1000);
